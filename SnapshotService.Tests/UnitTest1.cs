@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace XUnitVerifySnapshot.Tests
+namespace SnapshotService.Tests
 {
     public class UnitTest1
     {

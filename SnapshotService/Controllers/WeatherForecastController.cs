@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace XUnitVerifySnapshot.Controllers
+namespace SnapshotService.Controllers
 {
     [ApiController]
     [Route("[controller]")]

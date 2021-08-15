@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:12854",
+      "applicationUrl": "http://localhost:48299",
       "sslPort": 0
     }
   },
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "XUnitVerifySnapshot": {
+    "SnapshotService": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

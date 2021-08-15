@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31606.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitVerifySnapshot", "XUnitVerifySnapshot.csproj", "{858FED37-3626-4CB4-8601-99597B0484F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapshotService", "SnapshotService\SnapshotService.csproj", "{176C453E-DA2B-47A2-B8C6-E4497FBD3705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapshotService.Tests", "SnapshotService.Tests\SnapshotService.Tests.csproj", "{8C8193F3-84C3-46F4-8BD2-67DFDCD697E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{858FED37-3626-4CB4-8601-99597B0484F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{858FED37-3626-4CB4-8601-99597B0484F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{858FED37-3626-4CB4-8601-99597B0484F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{858FED37-3626-4CB4-8601-99597B0484F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176C453E-DA2B-47A2-B8C6-E4497FBD3705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176C453E-DA2B-47A2-B8C6-E4497FBD3705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176C453E-DA2B-47A2-B8C6-E4497FBD3705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176C453E-DA2B-47A2-B8C6-E4497FBD3705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8193F3-84C3-46F4-8BD2-67DFDCD697E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8193F3-84C3-46F4-8BD2-67DFDCD697E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8193F3-84C3-46F4-8BD2-67DFDCD697E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8193F3-84C3-46F4-8BD2-67DFDCD697E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

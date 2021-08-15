@@ -1,6 +1,6 @@
 using System;
 
-namespace XUnitVerifySnapshot
+namespace SnapshotService
 {
     public class WeatherForecast
     {
