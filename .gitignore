@@ -392,6 +392,10 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
+
+# snapshot files
+*.received.*
+
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 

@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Sample.Model
 {
-    internal class Person
+    record Person(
+    Guid Id,
+    string GivenNames,
+    string FamilyName,
+    DateTime DateOfBirth,
+    Address Address)
     {
-        public Guid Id { get; set; }
-        public string GivenNames { get; set; }
-        public string FamilyName { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public Address Address { get; set; }
+        public string Description => $"{GivenNames} {FamilyName} ({Id})";
+        public TimeSpan Age => DateTime.Now - DateOfBirth;
     }
 }

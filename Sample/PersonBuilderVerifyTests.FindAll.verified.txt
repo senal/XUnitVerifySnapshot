@@ -1,0 +1,26 @@
+﻿[
+  {
+    Id: Guid_1,
+    GivenNames: Emmy,
+    FamilyName: Annachiara,
+    DateOfBirth: DateTime_1,
+    Address: {
+      Street: 30 Greenwood Parkway,
+      City: Jordan Springs,
+      State: NSW
+    },
+    Description: Emmy Annachiara (Guid_1)
+  },
+  {
+    Id: Guid_2,
+    GivenNames: Manoj,
+    FamilyName: Silva,
+    DateOfBirth: DateTime_2,
+    Address: {
+      Street: 20 High Street,
+      City: Bankstown,
+      State: NSW
+    },
+    Description: Manoj Silva (Guid_2)
+  }
+]
